@@ -268,6 +268,10 @@ Note: Practice questions to help you prepare for the KCNA exam
 3. container
 4. metadata
  
+ 
+</details>
+
+<details close>
   
 ------------------------
 
