@@ -1,8 +1,6 @@
+## Knowledge test questions
 
-## Real knowldge test questions
-
-Note: It's highly recommended to find answers for following questions to verify your knowledge and be prepared  before actual exam 
-
+Note: It's highly recommended to find answers for following questions to verify your knowledge and be prepared before actual exam
 
  1. What is common between Statefulsets & Deployment ?
  2. Which Object requires Headless service?
