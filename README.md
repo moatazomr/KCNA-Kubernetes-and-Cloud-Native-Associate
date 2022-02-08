@@ -505,8 +505,8 @@ Reference: https://12factor.net/
 
 ## Practice questions
   
-- [Test your knowledge - Click this for practice questions](./mock-exam-questions/questions.md)
-- [Test your knowledge - Click this for knowledge test  questions](./mock-exam-questions/test-questions.md)
+- [Set of practice questions](./mock-exam-questions/questions.md)
+- [Set of knowledge test questions](./mock-exam-questions/test-questions.md)
 
 ## Slack
 
