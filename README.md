@@ -89,6 +89,24 @@ A Deployment provides declarative updates for Pods and ReplicaSets.
 You describe a desired state in a Deployment, and the Deployment Controller changes the actual state to the desired state at a controlled rate. You can define Deployments to create new ReplicaSets, or to remove existing Deployments and adopt all their resources with new Deployments.
 </details>
 
+- [Statefulset in Kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+<details>
+<summary>Statefulset in K8s - Click arrow to read more</summary>
+<br>
+
+StatefulSet is the workload API object used to manage stateful applications.
+
+Manages the deployment and scaling of a set of Pods, and provides guarantees about the ordering and uniqueness of these Pods.
+
+Like a Deployment, a StatefulSet manages Pods that are based on an identical container spec. Unlike a Deployment, a StatefulSet maintains a sticky identity for each of their Pods. These pods are created from the same spec, but are not interchangeable: each has a persistent identifier that it maintains across any rescheduling.
+
+[More Details about Stateful](https://www.magalix.com/blog/kubernetes-statefulsets-101-state-of-the-pods)
+</details>
+
+
+
+
+
 - [Services in Kubernetes](https://kubernetes.io/docs/concepts/services-networking/service/)
 <details>
 <summary>Services in K8s - Click arrow to read more</summary>
@@ -301,6 +319,7 @@ Reference : https://www.netapp.com/devops-solutions/what-are-containers/
 
 - [Cluster networking in K8s](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 - [Network Policies in K8s](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+- [Cluster Networking Basics**](https://www.aquasec.com/cloud-native-academy/kubernetes-101/kubernetes-networking/)
 - [Services, Load Balancing and Networking](https://kubernetes.io/docs/concepts/services-networking/)
 - [Container Networking From Scratch](https://www.youtube.com/watch?v=6v_BDHIgOY8)
 - [CNI - the Container Network Interface - GitHub](https://github.com/containernetworking/cni)
@@ -505,8 +524,9 @@ Reference: https://12factor.net/
 
 ## Practice questions
   
-- [Set of practice questions](./mock-exam-questions/questions.md)
-- [Set of knowledge test questions](./mock-exam-questions/test-questions.md)
+- [Set of practice questions (22Qs)](./mock-exam-questions/questions.md)
+- [Set of knowledge test questions (30Qs)](./mock-exam-questions/test-questions.md)
+- [Free Exam Simulator (45Qs)](https://www.101daysofdevops.com/courses/kubernetes-and-cloud-native-essentials-lfs250/)
 
 ## Slack
 
